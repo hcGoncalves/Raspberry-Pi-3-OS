@@ -1,0 +1,2 @@
+void draw_window(int x, int y, int w, int h, unsigned int background_color, unsigned int border_color, char * window_name);
+void clear_window(int x, int y, int w, int h, unsigned int background_color);

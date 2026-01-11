@@ -1,0 +1,15 @@
+void initTerminal();
+void logTerminal(char *msg);
+void logTerminalInt(int num);
+void logTerminalChar(char chr);
+void logTerminalHex(unsigned int num);
+void pushTerminal(char *msg);
+void pushTerminalChar(char chr);
+void pushTerminalInt(int num);
+void pushTerminalHex(unsigned int hex);
+void dumpToTerminal(void *ptr);
+void drawIn();
+void drawTerminal(int draw_full);
+void clearIn();
+void writeIn(char chr);
+void echoIn();

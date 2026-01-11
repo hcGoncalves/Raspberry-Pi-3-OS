@@ -1,0 +1,2 @@
+void sysPowerOff();
+void sysReset();
